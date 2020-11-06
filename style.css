@@ -1,0 +1,40 @@
+/* ho impostato il reset */
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+/* imposto le caratteristiche del primo blocco */
+.first-container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/madrid.jpg);
+  background-size: cover;
+  position: relative;
+  /* padding: 5px */
+}
+
+/* ho voluto provare un selettore avanzato per definire il testo di MADRID */
+.text :only-child {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-family: bold;
+  font-size: 70px;
+  color: #255;
+  text-shadow: 4px 4px  #000;
+}
+
+/* .first-container:hover {
+  display: none
+} */
+
+/* imposto l'ombra dell'immagine */
+.shadow {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100
+}
