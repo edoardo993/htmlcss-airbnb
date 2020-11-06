@@ -7,12 +7,13 @@
 
 /* imposto le caratteristiche del blocco MADRID*/
 .first-container {
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   background-image: url(img/madrid.jpg);
   background-size: cover;
   position: relative;
-  margin-bottom: 8px;
+  margin: 15px;
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 /* ho voluto provare un selettore avanzato per definire il testo di MADRID */
@@ -38,21 +39,24 @@
 
 /* imposto le caratteristiche del blocco AMSTERDAM */
 .second-container {
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   background-image: url(img/amsterdam.jpg);
   background-size: cover;
   position: relative;
-  margin-bottom: 8px
+  margin: 15px;
+  box-shadow: 10px 10px 5px #aaaaaa
 }
 
 /* imposto le caratteristiche del blocco BERLINO */
 .third-container {
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   background-image: url(img/berlino.jpg);
   background-size: cover;
   position: relative;
+  margin: 15px;
+  box-shadow: 10px 10px 5px #aaaaaa
 }
 
 /* ho voluto provare un selettore avanzato per definire il testo di AMSTERDAM */
@@ -82,22 +86,22 @@
 }
 
 /* uso un selettore avanzato per definire il colore della lettera M di MADRID */
-.first-container .shadow .text span span {
+.first-container .text span span {
   color: #b8860b
 }
 
 /* uso un selettore avanzato per definire il colore della lettera D di MADRID */
-.first-container .shadow .text span:nth-child(2) {
+.first-container .text span:nth-child(2) {
   color: #b8860b
 }
 
 /* uso un selettore avanzato per definire il colore della lettera A di AMSTERDAM */
-.second-container .shadow .text span span {
+.second-container .text span span {
   color: #ff0000
 }
 
 /* uso un selettore avanzato per definire il colore della lettera B di BERLINO */
-.third-container .shadow .text span span {
+.third-container .text span span {
   color: #00bfff
 }
 
