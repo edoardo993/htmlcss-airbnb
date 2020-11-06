@@ -12,7 +12,7 @@
   background-image: url(img/madrid.jpg);
   background-size: cover;
   position: relative;
-  margin-bottom: 8px
+  margin-bottom: 8px;
 }
 
 /* ho voluto provare un selettore avanzato per definire il testo di MADRID */
@@ -78,7 +78,7 @@
   font-size: 70px;
   color: #696969;
   text-shadow: 3px 3px  #fff;
-  font-family: "Turret Road"
+  font-family: "Turret Road";
 }
 
 /* uso un selettore avanzato per definire il colore della lettera M di MADRID */
@@ -99,4 +99,19 @@
 /* uso un selettore avanzato per definire il colore della lettera B di BERLINO */
 .third-container .shadow .text span span {
   color: #00bfff
+}
+
+/* imposto la scomparsa dell'ombra sull'immagine al passaggio del cursore */
+.first-container:hover .shadow {
+  display: none
+}
+
+/* imposto la scomparsa dell'ombra sull'immagine al passaggio del cursore */
+.second-container:hover .shadow {
+  display: none
+}
+
+/* imposto la scomparsa dell'ombra sull'immagine al passaggio del cursore */
+.third-container:hover .shadow {
+  display: none
 }
